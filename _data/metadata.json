@@ -1,0 +1,20 @@
+{
+  "title": "What is it now ?",
+  "url": "https://what-is-it.now.sh",
+  "description": "Random stuff about random things.",
+  "feed": {
+    "subtitle": "Random stuff about random things.",
+    "filename": "feed.xml",
+    "path": "/feed/feed.xml",
+    "id": "https://what-is-it.now.sh/"
+  },
+  "jsonfeed": {
+    "path": "/feed/feed.json",
+    "url": "https://what-is-it.now.sh/feed/feed.json"
+  },
+  "author": {
+    "name": "Thisas",
+    "email": "Thisas@Thisas.dev",
+    "url": "https://what-is-it.now.sh/about-me/"
+  }
+}

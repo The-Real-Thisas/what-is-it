@@ -9,13 +9,15 @@
     <link rel="stylesheet" href="{{ '/css/prism-base16-monokai.dark.css' | url }}">
     <link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml" title="{{ metadata.title }}">
     <link rel="alternate" href="{{ metadata.jsonfeed.path | url }}" type="application/json" title="{{ metadata.title }}">
-  </head>
-  <body>
-    <header>
-      <script>
+
+<script>
   if ("serviceWorker" in navigator)
     navigator.serviceWorker.register("/service-worker.js");
 </script>
+  </head>
+  <body>
+    <header>
+
       <div class="container">
       <h1 class="home"><a href="{{ '/' | url }}"><img src="/img/logo.png" alt="{{ metadata.title }}" style="height:8vh;"></a></h1>
 
